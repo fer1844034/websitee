@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+<link rel="stylesheet" href="../css/Diseño.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <!-- font-family: 'Josefin Sans', sans-serif;-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
+  <!-- font-family: 'Open Sans', sans-serif;-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/arriba.js"></script>
+    <title>Practica #4</title>
+	</head>
+	<body style="background-image: url(../Imagenes/fondo.jpg)">
+    <span class="ir-arriba"><img src="../Imagenes/arrow-up.png"></span>
+   <div id="portada_1">
+   <hr>
+    <h1 id="j18" style="margin-top: 30px;"><a name="port">UNIVERSIDAD AUTONOMA DE NUEVO LEON | FACULTAD DE INGENIERIA MECANICA Y ELECTRICA</a></h1>
+	<hr>
+<nav>
+     <div id="header">
+      <ul class="nav">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./Practica_01.html">Practica #1</a></li>
+        <li><a href="./Practica_02.html">Practica #2</a></li>
+        <li><a href="./Practica_03.html">Practica #3</a></li>
+        <li ><a class="seleccionada" href="./Practica_04.html">Practica #4</a></li>
+        <li><a href="./Practica_05.html">Practica #5 <img src="../Imagenes/abajo.png" width="10px"
+          style="background: black;"></a>
+          <ul>
+            <li><a href="./Practica_05.1.html">Practica #5.1</a></li>
+          </ul>
+        </li>
+        <li><a href="./Practica_06.html">Practica #6</a></li>
+        <li><a href="./Practica_07.html">Practica #7</a></li>
+        <li><a href="./Practica_08.html">PIA</a></li>
+      </ul>
+    </div> 
+</nav><br><br>
+
+<section>
+<center><h1 style="font-family: 'Courier New', Arial, Helvetica; font-size: 2.3em" >◦◦◦◦◦◦◦◦◦◦◦◦◦◦Practica 4◦◦◦◦◦◦◦◦◦◦◦◦◦◦</</h1></center>
+<h1 style=" text-align: center; font-family:Arial; color:#64B90E">Html Basico</h1>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Que es html?</h2>
+<ol>
+	<li align="left" style="list-style-type: square;">HTML es el lenguaje de marcado estándar para crear páginas web</li>
+	<li align="left" style="list-style-type: square;">HTML describe la estructura de una página web</li>
+	<li align="left" style="list-style-type: square;">HTML consta de una serie de elementos</li>
+	<li align="left" style="list-style-type: square;">Los elementos HTML le dicen al navegador cómo mostrar 
+	el contenido</li>
+	<li align="left" style="list-style-type: square;">Los elementos HTML etiquetan partes de contenido como "esto es un encabezado", "esto es un párrafo", "esto es un enlace", etc.</li>
+</ol> 
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Un documento HTML simple</h2>
+<p align="left">Un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos correctamente.</p>
+<p align="left">Un navegador no muestra las etiquetas HTML, pero las usa para determinar cómo mostrar el documento:</p> 
+<p align="left"><b><i>Ejemplo:</i></b></p>
+<img src="../Imagenes/codigo.png" align="left" class="margen">      <img src="../Imagenes/codigo1.png" width="53.6%" class="margen">
+<p align="left" ><i>Ejemplo explicado</i></p>
+<ol>
+  <li align="left" style="list-style-type: square;">La <b>!DOCTYPE</b> html declaración define que este documento es un documento HTML5</li>
+  <li align="left" style="list-style-type: square;">El <b>html</b> elemento es el elemento raíz de una página HTML.</li>
+  <li align="left" style="list-style-type: square;">El <b>head</b> elemento contiene metainformación sobre la página HTML.</li>
+  <li align="left" style="list-style-type: square;">El <b>title</b> elemento especifica un título para la página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página)</li>
+  <li align="left" style="list-style-type: square;">El <b>body</b> elemento define el cuerpo del documento y es un contenedor para todos los contenidos visibles, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.</li>
+  <li align="left" style="list-style-type: square;">El <b>h1</b> elemento define un encabezado grande</li>
+    <li align="left" style="list-style-type: square;">El <b>p</b> elemento define un párrafo</li>
+</ol>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Estructura de la página HTML</h2>
+             <p align="left"> Uno de los conceptos imprescindibles que debemos dominar a la hora de diseñar contenidos web es la estructura anidada de los documentos HTML. Los elementos suelen presentarse contenidos unos dentro de otros. Por lo general tenemos que empezar por diseñar la estructura HTML de la página para después continuar con los estilos, aplicando CSS. </p>
+			 <p align="left">En este ejemplo podemos ver los elementos más básicos que nos vamos a encontrar en prácticamente toda página web: </p>
+ <img src="../Imagenes/codigo3.png" width="50%">
+		     <p align="left">El elemento body está anidado es decir incluido dentro del elemento html. En términos de programación, body está colocado entre la etiqueta de apertura html y la de cierre /html, y por eso decimos que las etiquetas anidadas son las que se encuentran entre otras etiquetas de apertura y cierre. Ambos elementos, body y html, forman la estructura básica de toda página web. 
+			 Cuando un navegador abre un documento HTML busca esta estructura.</p>
+<p align="left">
+En HTML existen etiquetas de <b>apertura</b> y etiquetas de <b>cierre</b>, tienen la forma: &lt;etiqueta&gt; &lt;/etiqueta&gt;. Donde &lt;etiqueta&gt; es la etiqueta de apertura y &lt;/etiqueta&gt; es la etiqueta de cierre indicada por la diagonal. HTML tiene definidas gran variedad de etiquetas para distintos usos.
+Aunque la mayoría de las etiquetas tienen su etiqueta de apertura y etiqueta de cierre, es importante aclarar que no todas las etiquetas tienen su correspondiente etiqueta de cierre.</p>
+   <p align="left">Algunos ejemplos de etiquetas son: </p>
+   <center><table style="width:20%;text-align:center; background: white;">
+  <caption><b>Etiquetas con etiqueta de cierre</b></caption>
+  <tr>
+   <th>Apertura</th><th>Cierre</th>
+  </tr>
+  <tr>
+   <td><code>&lt;html&gt;</code></td><td><code>&lt;/html&gt;</code></td>
+  </tr>
+  <tr>
+   <td><code>&lt;head&gt;</code></td><td><code>&lt;/head&gt;</code></td>
+  </tr>
+  <tr>
+   <td><code>&lt;body&gt;</code></td><td><code>&lt;/body&gt;</code></td>
+  </tr>
+  <tr>
+   <td><code>&lt;p&gt;</code></td><td><code>&lt;/p&gt;</code></td>
+  </tr>
+  </table></center>
+   <p align="left">La etiqueta de apertura y la de cierre son las misma con la única diferencia de la diagonal "/" , 
+   es necesario la etiqueta de cierre para limitar el campo de acción de la etiqueta, por ejemplo a etiqueta (p) nos indica el inicio de un párrafo de texto y una vez que se escribe la etiqueta de apertura el navegador tomará como párrafo todo el texto que se encuentre después de dicha etiqueta hasta toparse con la etiqueta de cierre (/p) y así con las demás etiquetas según la función de cada una, la mayoría de las etiquetas de HTML son etiquetas de este tipo.</p>
+   <center><table style="width:20%;text-align:center; background: white;">
+     <caption><b>Etiquetas sin etiqueta de cierre</b></caption>
+     <tr>
+     <th>Etiqueta</th>
+     </tr>
+     <tr>
+     <td><code>&lt;br&gt;</code></td>
+     </tr>
+     <tr>
+     <td><code>&lt;img&gt;</code></td>
+     </tr>
+     <tr>
+     <td><code>&lt;hr&gt;</code></td>
+     </tr>
+     <tr>
+     <td><code>&lt;input&gt;</code></td>
+     </tr>
+     </table></center>
+       <br>
+
+			<h2 style=" text-align: center; font-family: 'Courier New', Arial, Helvetica; color:red;"><i>Ejemplos</i> <code class="h2"><u><i>Básicos de HTML</i></u></code></h2><hr>
+    <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">La declaración ! DOCTYPE</h2>
+    <p align="left">La <!DOCTYPE>declaración representa el tipo de documento y ayuda a los navegadores a mostrar las páginas web correctamente.</p> 
+    <ol>
+      <li align="left" style="list-style-type: square;">La <!DOCTYPE> declaración no distingue entre mayúsculas y minúsculas.</li>
+      <li align="left" style="list-style-type: square;">Solo debe aparecer una vez, en la parte superior de la página (antes de cualquier etiqueta HTML).</li>
+    </ol>
+    <p align="left">La <b>!DOCTYPE</b> declaración para HTML5 es:</p>
+    <img src="../Imagenes/codigo5.png" align="left"><br><br><br><hr>
+    <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Encabezados HTML</h2>
+ 
+    <p align="left">Los encabezados HTML son títulos o subtítulos que desea mostrar en una página web.</p>    <img src="../Imagenes/codigo14.png" width="20%" align="left" style="margin-right: 30px;">
+    <ol>
+    <li align="left" style="list-style-type: square;">Los encabezados HTML se definen con las etiquetas  <b>h1</b> to <b>h6.</b></li>
+    <li align="left" style="list-style-type: square;"><b>h1</b> define el encabezado más importante. </li>
+    <li align="left" style="list-style-type: square;"><b>h1</b> Los títulos deben usarse para los títulos principales, seguidos de los <b>h2</b> títulos, luego los menos importantes <b>h3</b>, y así sucesivamente.</li>
+    <li align="left" style="list-style-type: square;"><b>h6</b> define el encabezado menos importante:</li>
+  </ol>
+<img src="../Imagenes/codigo6.png" align="left"><br><br><br><br><br><br><br><br><br><br><hr>
+
+    <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Párrafos HTML</h2> 
+<p align="left">Los párrafos HTML se definen con la etiqueta <b>p</b> :</p>
+<img src="../Imagenes/codigo7.png" align="left"><br><br><br><br><br><br><br><hr>
+     <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Enlaces HTML</h2>
+     <p align="left">El <b>href</b> atributo especifica la URL de la página a la que va el enlace.</p>
+      <p align="left">Los enlaces HTML se definen con la etiqueta <b>a</b> :</p>
+<img src="../Imagenes/codigo8.png" align="left"><img src="../Imagenes/codigo10.png"><br>
+<ol>
+  <li align="left" style="list-style-type: square;">El destino del enlace se especifica con el atributo<b> href</b>. </li>
+  <li align="left" style="list-style-type: square;">Los atributos se utilizan para proporcionar información adicional sobre elementos HTML.</li>
+</ol><hr>
+  <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Imágenes HTML</h2>
+  <p align="left">Las imágenes HTML se definen con la etiqueta <b>img</b>.</p>
+  <ol>
+  <li align="left" style="list-style-type: square;"><b>src</b>: Es un atributo y especifica la ruta a la imagen que se mostrará</li> 
+  <li align="left" style="list-style-type: square;"><b>alt</b>: Es un atributo y especifica un texto alternativo para una imagen, si la imagen por alguna razón no se puede mostrar.</li> 
+  <li align="left" style="list-style-type: square;"><b>Width</b> y <b>height</b>: los atributos widthy height, que especifican el ancho y el alto de la imagen (en píxeles).</li> 
+</ol>
+  <img src="../Imagenes/codigo9.png" align="left"><img src="../Imagenes/codigo11.png" width="25%">
+  <p align="left">Hay dos formas de especificar la URL con el atributo <b>src</b>:</p>
+  <ol>
+    <li align="left"><i>1.</i> <b>URL absoluta</b> : enlaces a una imagen externa alojada en otro sitio web. Ejemplo: src = "https://www.w3schools.com/images/img_girl.jpg".</li>
+    <li align="left"><i>2.</i><b> URL relativa</b> : enlaces a una imagen alojada en el sitio web. Aquí, la URL no incluye el nombre de dominio. Si la URL comienza sin una barra, será relativa a la página actual. Ejemplo: src = "img_girl.jpg". Si la URL comienza con una barra, será relativa al dominio. Ejemplo: src = "/ images / img_girl.jpg".</li>
+  </ol>
+  <br><hr>
+   <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Comentarios HTML
+</h2> 
+<p align="left">Los comentarios HTML no se muestran en el navegador, pero pueden ayudar a documentar su código fuente HTML.</p>
+<img src="../Imagenes/codigo12.png" align="left"><br><br><br><hr>
+    <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Otras Etiquetas</h2>
+    <ol>
+      <h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">METADATOS DEL DOCUMENTO</h4>
+      <li align="left" style="list-style-type: square;"><b>&lt;style&gt; &lt;/style &gt;</b>: Etiquetas usadas para introducir código CSS en línea, es decir, en el propio documento HTML.</li>
+       <h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">ETIQUETAS PARA LA CREACIÓN DE TABLAS</h4>
+      <li align="left" style="list-style-type: square;"><b>&lt;table&gt; &lt;/table &gt;</b>: Etiquetas de apertura y cierre de una tabla. El resto de etiquetas de la tabla han de ir siempre recogidas entre estas dos etiquetas.</li>
+        <li align="left" style="list-style-type: square;"><b>&lt;td&gt; &lt;/td &gt;</b>: Usada para definir una celda de una tabla.</li>
+          <li align="left" style="list-style-type: square;"><b>&lt;tr&gt; &lt;/tr &gt;</b>: Se usa para indicar una fila de celdas de una tabla.</li>
+           <h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">ETIQUETAS PARA INCRUSTAR CONTENIDO</h4>
+            <li align="left" style="list-style-type: square;"><b>&lt;video&gt; &lt;/video &gt;</b>: Se usa para reproducir video en la página web junto a sus archivos de audio y capciones asociadas.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;audio&gt; &lt;/audio &gt;</b>: Usada para cargar un archivo de audio o stream de audio.</li>
+               <h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">ETIQUETAS SEMÁNTICAS PARA TEXTO</h4>
+              <li align="left" style="list-style-type: square;"><b>&lt;br&gt;</b>: Etiqueta utilizada para crear un salto de línea.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;strong&gt; &lt;/strong &gt;</b>: Etiqueta para definir una palabra o conjunto de ellas como importantes.</li>
+               <h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">ETIQUETAS PARA LA AGRUPACIÓN DE CONTENIDO</h4>
+              <li align="left" style="list-style-type: square;"><b>&lt;figure&gt; &lt;/figure &gt;</b>: Indica una figura ilustrada como parte del documento HTML5.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;figcaption&gt; &lt;/figcaption &gt;</b>: Utilizada para definir la leyenda de una figura.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;div&gt; &lt;/div &gt;</b>: Etiqueta común utilizada para crear un contenedor genérico.</li>
+              <h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">ETIQUETAS DE SECCIONES</h4>
+              <li align="left" style="list-style-type: square;"><b>&lt;nav&gt; &lt;/nav&gt;</b>: Usadas para definir el contenido que será la sección de navegación de la web.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;footer&gt; &lt;/footer &gt;</b>: Usadas para definir el pie de página.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;header&gt; &lt;/header &gt;</b>: Se usan para definir la cabecera la página web. Suele contener el logotipo, menú de navegación, etc.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;article&gt; &lt;/article &gt;</b>: Define contenido independiente de la web.</li>
+              <li align="left" style="list-style-type: square;"><b>&lt;section&gt; &lt;/section &gt;</b>: Define una sección del documento.</li>
+    </ol> <hr>
+<br><br><br><br>
+    <h1 style=" text-align: center; font-family:Arial; color:#64B90E">CSS Basico</h1>
+    <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Que es CSS?</h2>
+<ol>
+  <li align="left" style="list-style-type: square;">CSS son las siglas de Cascading Style Sheets</li>
+  <li align="left" style="list-style-type: square;">CSS describe cómo se mostrarán los elementos HTML en la pantalla, el papel o en otros medios.</li>
+  <li align="left" style="list-style-type: square;">CSS ahorra mucho trabajo. Puede controlar el diseño de varias páginas web a la vez</li>
+  <li align="left" style="list-style-type: square;">Las hojas de estilo externas se almacenan en archivos CSS
+</li>
+</ol> 
+		<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Sintaxis de CSS</h2>	
+<p align="left">Una regla CSS consta de un selector y un bloque de declaración.</p>
+<img src="../Imagenes/codigo16.png" align="left" width="40%" style="margin-right: 23px;">
+<ol>
+  <li align="left" style="list-style-type: square;">La <b>Regla:</b> cada uno de los estilos que se aplican a una parte de la página en una hoja de estilos CSS. Cada regla esta compuesta de una parte de "selectores", un simbolo de "llave de apertura" ( { ), otra parte denominada "declaraciones" y por ultimo, un simbolo de "llave de cierre" ( } ).</li>
+  <li align="left" style="list-style-type: square;">El <b>Selector:</b> indica el elemento o elementos HTML a los que se aplica la regla CSS.</li>
+  <li align="left" style="list-style-type: square;">El <b>Declaracion:</b> especifica los estilos que se aplican a los elementos. Esta compuesta por una o mas propiedades CSS con sus valores.</li>
+  <li align="left" style="list-style-type: square;">El <b>Propiedad:</b> permite modificar el aspecto de una caracteristica del elemento</li>
+  <li align="left" style="list-style-type: square;">El <b>Valor:</b> indica el nuevo valor de la caracteristica modificada en el elemento.</li>
+</ol>
+	 <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">ES-MX'>¿Cómo se usa el CSS en las páginas?</h2>           
+     <p align="left">Se puede aplicar CSS para formatear cualquier documento HTML, de tres formas:</p>
+	 <p align="left"><strong>1-</strong> <b>Css en linea</b>: Se definen dentro del atributo "style" del elemento relevante.</p>
+	 <p align="left">Por ejemplo:</p><br>
+	 <div style='mso-element:para-border-div;border:solid #CCCCCC 1.0pt;mso-border-alt:
+     solid #CCCCCC .75pt;padding:8.0pt 8.0pt 8.0pt 8.0pt;background:white'>
+
+     <p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+     margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+     background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+     padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span style='font-size:
+     12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+      mso-bidi-font-family:"Courier New";color:black;mso-themecolor:text1;mso-fareast-language:
+     ES-MX'>Mi casa es de color &lt;<span class=SpellE>span</span> <span
+     class=SpellE>style</span>=&quot;color: #2196f3;&quot;&gt;azul&lt;/<span
+     class=SpellE>span</span>&gt;.<o:p></o:p></span></b></p></div>
+	 <p align="left">Esta técnica no es recomendada en la web moderna.</p>
+	 <p align="left"><strong>2-</strong> <b>CSS interno</b>: Se definen dentro del elemento &lt;style&gt;, dentro de la sección &lt;head&gt; de una página HTML:</p>
+	 <div style='mso-element:para-border-div;border:solid #CCCCCC 1.0pt;mso-border-alt:
+     solid #CCCCCC .75pt;padding:8.0pt 8.0pt 8.0pt 8.0pt;background:white'>
+
+     <p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+     margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+     background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+     padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+     style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+     "Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+     text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;style&gt;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><span class=GramE><b><span
+lang=EN-US style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Courier New";
+color:black;mso-themecolor:text1;mso-ansi-language:EN-US;mso-fareast-language:
+ES-MX'>blue{</span></b></span><b><span lang=EN-US style='font-size:12.0pt;
+font-family:"Century Gothic",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Courier New";color:black;mso-themecolor:text1;mso-ansi-language:
+EN-US;mso-fareast-language:ES-MX'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'><span
+style='mso-spacerun:yes'>  </span>color: #2196f3;<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>}<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;/style&gt;<o:p></o:p></span></b></p></div>
+	 <p align="left"><strong>3-</strong><b> Css Externo</b>: Se definen dentro del elemento &lt;link&gt;, dentro de la sección &lt;head&gt; de una página HTML:</p>
+	 <div style='mso-element:para-border-div;border:solid #CCCCCC 1.0pt;mso-border-alt:
+     solid #CCCCCC .75pt;padding:8.0pt 8.0pt 8.0pt 8.0pt;background:white'>
+
+    <p class=MsoNormal style='margin-top:9.0pt;margin-right:0cm;margin-bottom:7.5pt;
+     margin-left:0cm;text-align:justify;line-height:16.8pt;tab-stops:45.8pt 91.6pt 137.4pt 183.2pt 229.0pt 274.8pt 320.6pt 366.4pt 412.2pt 458.0pt 503.8pt 549.6pt 595.4pt 641.2pt 687.0pt 732.8pt;
+     background:white;word-break:break-all;border:none;mso-border-alt:solid #CCCCCC .75pt;
+     padding:0cm;mso-padding-alt:8.0pt 8.0pt 8.0pt 8.0pt'><b><span lang=EN-US
+     style='font-size:12.0pt;font-family:"Century Gothic",sans-serif;mso-fareast-font-family:
+     "Times New Roman";mso-bidi-font-family:"Courier New";color:black;mso-themecolor:
+     text1;mso-ansi-language:EN-US;mso-fareast-language:ES-MX'>&lt;link <span
+     class=SpellE>href</span>=&quot;estilo.css&quot; <span class=SpellE>rel</span>=&quot;stylesheet&quot;
+     type=&quot;text/<span class=SpellE>css</span>&quot;&gt;<o:p></o:p></span></b></p></div>
+     <p align="left">La ventaja de este último método es que permite aplicar las reglas a varias páginas al mismo tiempo y solo es necesario modificar el archivo ante cualquier actualización.</p>
+	 
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Selectores CSS Mas Usados</h2>  
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">El selector de id de CSS</h3>  
+<ol>
+  <li align="left" style="list-style-type: square;">El selector de clases selecciona elementos HTML con un atributo de clase específico.</li>
+  <li align="left" style="list-style-type: square;">Para seleccionar elementos con una clase específica, escriba un punto (<b>.</b>), Seguido del nombre de la clase.</li>
+  <p align="left"><strong>Ejemplo:</strong></p>
+</ol>
+<img src="../Imagenes/codigo17.png" width="35%" style="margin-right:20px;"> <img src="../Imagenes/codigo20.png" style="margin-bottom:130px">
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">El selector de clases CSS</h3> 
+<ol>
+  <li align="left" style="list-style-type: square;">El selector de id utiliza el atributo id de un elemento HTML para seleccionar un elemento específico.</li>
+  <li align="left" style="list-style-type: square;">Para seleccionar un elemento con una identificación específica, escriba un carácter de almohadilla (<b></b>), seguido de la identificación del elemento.</li>
+  <p align="left"><strong>Ejemplo:</strong></p>
+</ol>
+<img src="../Imagenes/codigo18.png" width="40%" style="margin-right: 20px;" > <img src="../Imagenes/codigo19.png" width="40%" style="margin-bottom: 130px;"><br><br>
+<h2 style=" text-align: center; font-family: 'Courier New', Arial, Helvetica; color:red;"><i>Ejemplos</i> <code class="h2"><u><i>Básicos de CSS</i></u></code></h2><hr>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Comentarios Css</h2>
+<p align="left">Los comentarios se utilizan para explicar el código y pueden ayudar cuando edite el código fuente en una fecha posterior.</p>
+<p align="left"><STRONG>Ejemplo:</STRONG></p>
+<img src="../Imagenes/codigo21.png" align="left"><br><br><br><br><br><br><br><br><br><hr>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Colores Css</h2>
+<p align="left">Los colores se especifican utilizando nombres de colores predefinidos o valores RGB, HEX, HSL, RGBA, HSLA.</p>
+<p align="left">Algunos nombres de colores CSS: red, green, white, black, pink, orange, purple, etc.</p>
+<img src="../Imagenes/codigo22.png">
+<p align="left"><b>CSS / HTML</b> admite 140 nombres de colores estándar .</p>
+<ol>
+      <h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Colores CSS HEX
+</h3>
+      <li align="left" style="list-style-type: square;"><b>Un color hexadecimal</b> se especifica con: #RRGGBB, donde los enteros hexadecimales RR (rojo), GG (verde) y BB (azul) especifican los componentes del color.</li>
+</ol>
+<hr>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Fondos Css</h2>
+<p align="left">Las propiedades de fondo de CSS se utilizan para agregar efectos de fondo a los elementos.</p>
+<p align="left">Algunos fondos Basicos son:</p>
+<ol>
+  <li align="left" style="list-style-type: square;">background-color</li>
+  <li align="left" style="list-style-type: square;">background-image</li>
+</ol>
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Color de fondo CSS
+</h3>
+<p align="left">La <b>background-color</b>propiedad especifica el color de fondo de un elemento.</p>
+<img src="../Imagenes/codigo23.png" align="left" style="margin-right:30px;"><p align="left">Con CSS, un color suele especificarse mediante:</p>
+<ol>
+  <li align="left" style="list-style-type: square;">Un nombre de color válido, como "rojo"</li>
+  <li align="left" style="list-style-type: square;">Un valor HEX, como "# ff0000"</li>
+  <li align="left" style="list-style-type: square;">Un valor RGB, como "rgb (255,0,0)</li>
+</ol>
+<br><br><br>
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Imagen de fondo
+</h3>
+<p align="left">La background-imagepropiedad especifica una imagen para usar como fondo de un elemento.</p>
+<img src="../Imagenes/codigo24.png" align="left" width="40%"> <img src="../Imagenes/codigo25.png"> <br><br><br><br><br><br><br><br><br><br><br><hr>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Alto y ancho de CSS</h2>
+<p align="left">El CSS heighty las widthpropiedades se utilizan para establecer la altura y el ancho de un elemento.</p>
+<p align="left">Las propiedades heighty widthpueden tener los siguientes valores:</p>
+<ol>
+  <li align="left" style="list-style-type: square;"><b>auto</b>: Esto es predeterminado. El navegador calcula la altura y el ancho</li>
+  <li align="left" style="list-style-type: square;"><b>length</b>: Define la altura / ancho en px, cm, etc.</li>
+  <li align="left" style="list-style-type: square;"><b>%</b>: Define la altura / ancho en porcentaje del bloque contenedor</li>
+</ol>
+<img src="../Imagenes/codigo27.png" width="40%"  align="left"> <img src="../Imagenes/codigo26.png" width="40%"><br><br>
+<hr> 
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Texto Css</h2>
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Color de texto
+</h3>
+<p align="left">La propiedad <b>color</b>  se utiliza para establecer el color del texto. Ejemplo:</p><p> h1 {
+  color: green;
+}.</p><p align="left"> Quiere decir que el titulo sera de color verde.</p>
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Alineación del texto
+</h3>
+<p align="left">La propiedad <b>text-align</b>  se utiliza para establecer la alineación horizontal de un texto. Ejemplo:
+</p>
+  <p>h1 {
+  text-align: center;
+}.</p>
+ <p align="left">Quiere decir que el texto se va centrar; Tambien se puede usar <b>left:</b> para mostrar el texto hacia la izquierda y <b>right:</b> para mostrar el texto hacia derecha</p> <hr>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Fuentes Css</h2>
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Tipo de letra Css
+</h3>
+<p align="left">Usamos la propiedad <b>font-family</b>  para especificar la fuente de un texto. Por ejemplo:</p>
+<img src="../Imagenes/codigo28.png" width="40%">
+<h3 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Tamaño de letra Css
+</h3>
+<p align="left">La propiedad <b>font-size</b> establece el tamaño del texto.</p>
+<h4 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">El tamaño con pixeles
+</h4>
+<p align="left">Ajustar el tamaño del texto con píxeles le da un control total sobre el tamaño del texto:
+</p>
+<img src="../Imagenes/codigo29.png" width="19%"><br><br><hr>
+
+<br><br><br><br><h1 style=" text-align: center; font-family:Arial; color:#64B90E">XML Basico</h1>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Que es XML?</h2>
+<ol>
+  <li align="left" style="list-style-type: square;">XML es una herramienta independiente de software y hardware para almacenar y transportar datos.</li>
+  <li align="left" style="list-style-type: square;">XML es un lenguaje de marcado muy parecido al HTML.</li>
+  <li align="left" style="list-style-type: square;">XML fue diseñado para almacenar y transportar datos.</li>
+  <li align="left" style="list-style-type: square;">XML fue diseñado para ser autodescriptivo
+</li>
+</ol> 
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Cómo se puede utilizar XML ?</h2>
+<ol>
+  <li align="left" style="list-style-type: square;">XML separa los datos de la presentación.</li>
+  <li align="left" style="list-style-type: square;">XML es a menudo un complemento de HTML.</li>
+  <li align="left" style="list-style-type: square;">XML separa datos de HTML.</li>
+</ol> 
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Detalles de la sintaxis de XHTML</h2>
+<p align="left">Sintaxis XHTML es muy similar al HTML sintaxis y casi todos los elementos HTML en XHTML válido. Pero cuando se escribe un documento XHTML tienes que pagar un poco más de atención para hacer que su documento HTML a XHTML compatible.</p><p align="left">Aquí están los puntos importantes para recordar cuando escribir un nuevo documento XHTML o convertir los documento HTML a XHTML documento:</p>
+<ol>
+  <li align="left" style="list-style-type: square;">Se necesita para escribir una declaración DOCTYPE en el inicio del documento XHTML.</li>
+  <li align="left" style="list-style-type: square;">Atributo minimización está prohibido.</li>
+  <li align="left" style="list-style-type: square;">Usted debe escribir todas las etiquetas y atributos XHTML sólo en minúsculas.</li>
+  <li align="left" style="list-style-type: square;">Tiene que cerrar todas las etiquetas XHTML correctamente.
+</li>
+  <li align="left" style="list-style-type: square;">Debe consignar todos los valores de atributo.</li>
+  <li align="left" style="list-style-type: square;">El id atributo sustituye el atributo name.</li>
+  <li align="left" style="list-style-type: square;">El idioma atributo de la etiqueta script está en desuso.</li>
+</ol> 
+
+<br><br><br><h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica; color:#64B90E; ">Preguntas</h2>
+<ol>
+            <i><li align="left" ><b>1.-</b> ¿Que es un XML y para que sirve?</li></i>
+            <p align="left">XML (Extensible Markup Language) es un lenguaje de etiquetas, es decir, cada paquete de información está delimitado por dos etiquetas como se hace también en el lenguaje HTML, pero XML separa el contenido de la presentación. Su objetivo es facilitar la representación, almacenamiento y trasmisión de información varia por parte de aplicaciones informáticas, computadoras y medios de comunicación digital en general.</p>
+            <i><li align="left"><b>2.-</b> ¿Que caracteristicas tiene un documento XML?</li></i>
+            <p align="left">XML es un  formato universal para documentos y datos estructurados en Internet; este estándar permite el intercambio de información estructurada entre diferentes plataformas. Por lo que se  puede usar en bases de datos, editores de texto, hojas de cálculo y casi cualquier cosa imaginable.</p>
+            <i><li align="left"><b>3.-</b> ¿Que es y para que sirve un archivo XHTML?</li></i>
+            <p align="left">El lenguaje XHTML surgió ante los problemas de compatibilidad que surgían cuando se usaba un documento HTML en distintas plataformas. La especificación XHTML viene a ser una reformulación del HTML como aplicación XML. En realidad, es una reformulación de las tres definiciones de tipo de documento HTML 4.0 como aplicaciones XML. Su finalidad es que pueda ser usado como lenguaje de contenidos que sea a su vez conforme a XML y, si se siguen algunas sencillas directrices, funciona en agentes de usuario (esto es, las aplicaciones que leen y procesan documentos) conformes con HTML</p>
+</ol>
+   <br>
+   <center><h1 style="font-family: 'Courier New', Arial, Helvetica; font-size: 2.3em; color:papayawhip;" >Conclusiones</h1></center>
+	 <div class="contenedors">
+	 <ul class="slider">
+		<li id="slider1">
+			<img src="../Imagenes/xml.jpg" width="20%">
+		</li>
+		<li id="slider2">
+			<hr>
+            <h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Edward Fernando Perez Rocha</h3>
+            <p align="left">Los documentos HTML se pueden apoyar de muchos otros recursos como las hojas de estilos CSS, pero se debe de tener en consideracion las reglas y las maneras correctas de emplear las hojas de estilos. Tambien se puede utilizar el XML para definir lenguajes de marcado como el mismo HTML para darle un uso adecuado, ademas XML es muy parecido a HTML con unas muy pequeñas diferencias, pero ambos trabajan con etiquetas que marcan cada seccion del documento y en ambos casos las etiquetas cuentan con herencia, es decir etiquetas padre, etiquetas hijo y etiquetas hermanos.<hr>
+		</li>
+		<li id="slider3">
+		<hr>
+            <h3 style="text-align: center; font-family: 'Courier New', Arial, Helvetica">Bryan Alberto Flores García</h3>
+            <p align="left">El XML es parecido a HTML, ya que se maneja por etiquetas, solo que en XML se podría decir que nosotros creamos las etiquetas, XML nos permite comunicar aplicaciones, procesando la información entre ellas de forma práctica. En general podemos decir que HTML se encarga de la estructura de la página y XML de la estructura de los datos. XML es una herramienta muy importante que tenemos a la hora de crear una página web, ya que nos facilita mucho en el apartado de los datos, si utilizamos XML tendremos una página más eficiente, por lo cual es importante saber acerca de este lenguaje.</hr>
+		</li>
+		<li id="slider4">
+		<hr>
+		<h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Gerardo Carrera Torres</h3>
+            <p align="left"> Aprender estos tipos de conceptos en HTML es muy importante ya que se pueden utilizar a medida que vas haciendo una pagina web ya sea para alguna practica que se tenga o tambien para cualquier pagina que se nos haya encargado ademas de que el aprender a manejar correctamente el css y html es de suma importancia si es que uno se quiere dedicar al front end en desarrollo web.</hr>
+		</li>
+		<li id="slider5">
+			<hr>
+            <h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Shakty Betzahbe Salinas Huerta</h3>
+            <p align="left">XML en su calidad de estándar del sector para expresar datos estructurados, ofrece muchas ventajas a las organizaciones, desarrolladores de software, sitios Web y usuarios finales. Las oportunidades aumentarán cuantos más formatos de datos de mercado vertical se creen para mercados claves, como el mercado de búsquedas avanzadas en bases de datos, banca en línea, médico, legal, comercio electrónico, etc. Cuando los sitios ofrezcan datos, en lugar de limitarse a las vistas de datos, las oportunidades serán extraordinarias.
+            <hr>
+		</li>
+		<li id="slider6">
+			<hr>
+            <h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Diego Armando Hernandez Rivera</h3>
+            <p align="left">He concluido que el XHTML es muy util para realizar cualquier actividad dicese basica o con poca dificultad, mas sin embargo el CSS es un muy buen complemento para agregar diseño y estilo a una pagina web, fue divertido y emocionante redescubrir el formato de XHTML y comparar sus similitudes con CSS, todo esto con el fin de aprender que hay mas de una manera para hacer una pagina web. <hr>
+		</li>
+	</ul>
+	<ul class="menu_s" align="center">
+	<li>
+		<a href="#slider1 ">Imagen</a>
+	</li>
+	<li>
+		<a href="#slider2 ">Edward</a>
+	</li>
+	<li>
+		<a href="#slider3 ">Bryan</a>
+	</li>
+	<li>
+		<a href="#slider4 ">Gerardo</a>
+	</li>
+	<li>
+		<a href="#slider5 ">Shakty</a>
+	</li>
+	<li>
+		<a href="#slider6 ">Diego</a>
+	</li>
+</ul>
+	 </div>	
+<h3 style="text-align: center; font-family: 'Courier New', Arial, Helvetica">Bibliografia</h3>
+        <a href="https://gutl.jovenclub.cu/wp-content/uploads/2013/10/El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf" target="_back" >El Gran Libro de HTML5,CSS3 y Javascrip</a><br>
+        <a href="https://docs.microsoft.com/es-es/previous-versions/msdn10/hh749021(v=msdn.10)#estructura-html" target="_back">Microsoft® CSS</a><br>
+                                    <a href="https://www.w3schools.com/" target="_back" >w3schools</a>   
+             
+
+            
+</section>
+	  </div>
+	</Body>
+
+</Html>

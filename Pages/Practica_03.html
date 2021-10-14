@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+<link rel="stylesheet" href="../css/Diseño.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet"> 
+  <!-- font-family: 'Josefin Sans', sans-serif;-->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet"> 
+  <!-- font-family: 'Open Sans', sans-serif;-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../js/arriba.js"></script>
+  
+    <title>Practica #3</title>
+	</head>
+	<body style="background-image: url(../Imagenes/fondo.jpg)">
+    <span class="ir-arriba"><img src="../Imagenes/arrow-up.png"></span>
+   <div id="portada_1">
+   <hr>
+    <h1 id="j18" style="margin-top: 30px;"><a name="port">UNIVERSIDAD AUTONOMA DE NUEVO LEON | FACULTAD DE INGENIERIA MECANICA Y ELECTRICA</a></h1>
+	<hr>
+<nav>
+     <div id="header">
+      <ul class="nav">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./Practica_01.html">Practica #1</a></li>
+        <li><a href="./Practica_02.html">Practica #2</a></li>
+        <li><a class="seleccionada"  href="./Practica_03.html">Practica #3</a></li>
+        <li><a href="./Practica_04.html">Practica #4</a></li>
+        <li><a href="./Practica_05.html">Practica #5 <img src="../Imagenes/abajo.png" width="10px"
+          style="background: black;"></a>
+          <ul>
+            <li><a href="./Practica_05.1.html">Practica #5.1</a></li>
+          </ul>
+        </li>
+        <li><a href="./Practica_06.html">Practica #6</a></li>
+        <li><a href="./Practica_07.html">Practica #7</a></li>
+        <li><a href="./Practica_08.html">PIA</a></li>
+      </ul>
+    </div> 
+</nav><br><br>
+
+<section>
+            <center><h1 style="font-family: 'Courier New', Arial, Helvetica; font-size: 2.3em" >◦◦◦◦◦◦◦◦◦◦◦◦◦◦Practica 3◦◦◦◦◦◦◦◦◦◦◦◦◦◦</</h1></center>
+            <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Que es un CSS?</h2>
+            <img src="../Imagenes/body.png" align="left" width="200" style="margin-right:20px";><p align="left">  
+             <p align="left"><b>CSS</b>, es una tecnología que nos permite crear páginas web de una manera más exacta. Gracias a las CSS somos mucho más dueños de los resultados finales de la página, pudiendo hacer muchas cosas que no se podía hacer utilizando solamente HTML, como incluir márgenes, tipos de letra, fondos, colores...
+             CSS son las siglas de Cascading Style Sheets, en español Hojas de estilo en Cascada. En este reportaje vamos a ver algunos de los efectos que se pueden crear con las CSS sin necesidad de conocer la tecnología entera.
+             Las Hojas de Estilo en Cascada se escriben dentro del código HTML de la página web, solo en casos avanzados se pueden escribir en un archivo a parte y enlazar la página con ese archivo. En un principio vamos a utilizar la manera más directa de aplicar estilos a los elementos de la página, mas adelante veremos la declaración en archivos externos. Para ello, y esto es la primera lección de este artículo, vamos a conocer un nuevo atributo que se puede utilizar en casi todas las etiquetas HTML: style.
+             </p><br>
+              <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Para que sirve un CSS?</h2>
+              <p align="left">CSS sirve para poder dar un estilo a cualquier web y hacerlo con las reglas que se deseen. Dicho de otro modo el HTML actuaría como es esqueleto de la web, definiendo su estructura básica, y el CSS añadiría toda la capa de personalización sobre el que la web define su aspecto final.</p><br>
+             <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Cual es la diferencia que seria mas difícil de realizar en un sitio web si se optara por no usar un CSS?</h2><p align="left">La unica complicación que se nos podria afectar si no usaramos CSS seria el manejo de fondos y tablas al momento de querer ingroducir informacion nueva al momento de obtenerla
+              </p><br>
+
+
+			 <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">CSS (Cascading style sheet)</h2>  
+            <p align="left">CSS nos permite definir estilos para tipos de letra, modificando el tamaño y la fuente, pero hay otros estilos no tan obvios. Por ejemplo: el estilo por defecto para un elemento heading 1 incluye unos márgenes de 10 pixels por encima y por debajo del texto. 
+			Si queremos modificar el estilo de h1 para que no lleve márgenes, tendremos que indicar de manera explícita unas reglas que conviertan dichos valores a cero.</p>
+            <br>
+			 <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Ejemplo de la estructura de un CSS interno.</h2>  
+            <p align="left">Una regla CSS para anular los márgenes superior e inferior de los elementos heading 1 es así:</p><br>
+			<p align="left">h1 {</p>
+			<p align="left">margin-top:0px;</p>
+            <p align="left">margin-bottom:0px</p>
+            <p align="left">background-color:#ff00ff;</p>
+            <p align="left">font-family: Arial;</p>
+            <p align="left">}</p><br>
+			 <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Un poco de historia del CSS.</h2>  
+            <p align="left">El CSS nos sirvio para la creatividad del programador web, Aunque en este resumen se abordaran temas relacionados a crear un diseño visual de página utilizando estilos CSS, debes saber que esto no ha sido siempre la técnica normal. Cuando se empezó con el diseño web a mediados de los 90, el único método que se podía emplear para crear estructuras visuales complejas, como por ejemplo la presentación en varias columnas, consistía en emplear el elemento tabla (table). La tabla HTML estaba pensada inicialmente para mostrar datos de manera estructurada, en filas, columnas y celdas. Sin embargo los diseñadores empezaron a utilizar este elemento como base para las estructuras visuales de las páginas. En aquel momento esa técnica estaba plenamente justificada: las tablas era lo único que tenían para generar el tipo de diseños que se necesitaban y, además, eran un recurso extremadamente flexible.
+			<p align="left">CSS ha sustituido ya el empleo de tablas para organizar las páginas, por lo que los elementos de tabla de HTML van regresando, poco a poco, a su función original, que es la de mostrar datos estructurados, y abandonan su papel como armazón visual de las páginas. Seguramente podrás seguir encontrando numerosos ejemplos de este tipo de estructuras en la web, pero en este libro no vas a aprender a crearlas, sino que vas a aprender los conceptos básicos de CSS que nos permiten obtener los mismos resultados.</p>
+            <p align="left">La propiedad float en CSS hace posible que un texto pueda escribirse alrededor de una imagen. Este estilo ha sido tomado del diseño de imprenta, donde a este efecto se le llama “justificación” del texto. CSS consigue el mismo efecto haciendo que los elementos que siguen a un elemento “flotante” puedan rodearlo, cambiando su posición relativa con respecto a él. Este comportamiento también nos sirve para crear columnas en una página. En la imagen de la izquierda hay un gráfico anidado dentro de un párrafo. El gráfico ocupa un espacio vertical completo y el texto posterior se empieza a escribir a partir de su esquina inferior derecha, ya que no se ha aplicado aquí la propiedad float. En la imagen de la derecha, los elementos son los mismos, pero hemos aplicado la regla float: right al gráfico. El gráfico se desplaza a la derecha todo lo que puede y el texto se escribe a su izquierda a partir del primer punto disponible de su contenedor (en este caso, la esquina superior izquierda del div contenedor).</p>
+             <br>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Presentación del < div ></h2> 
+			<img src="../Imagenes/div.png" align="left" width="200" style="margin-right:50px";><p align="left"> 
+			 <p align="left">Podemos considerar al elemento< div > como un contenedor genérico en el que podemos poner elementos relacionados entre sí de forma lógica.</p>
+       
+	   <ul>
+         <li align="left">La apertura y cierre de etiquetas<div> suele hacerse rodeando a otros elementos de la página, de forma que dichos elementos quedan anidados dentro del contenedor.</li>
+          <li align="left">Puedes tener en la misma página todos los elementos < div > que consideres necesarios y con frecuencia se utilizan para crear el armazón visual.</li>
+          <br><li align="left">Un elemento <div> suele llevar un atributo ID (con lo que adquiere un “nombre” explícito dentro de la página) o bien pertenecer a una clase CSS, utilizándose ambos como medio para aplicar al contenedor uno o más estilos CSS.</li>
+            <li align="left">El empleo de elementos < div > facilita a otras personas la identificación de las diversas secciones en que se subdivide la página y también nos ayuda a controlar y aplicar estilos en cada una de ellas.</li>
+       </ul><br>
+       <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">FLOAT</h2>
+       <p align="left">La propiedad float en CSS hace posible que un texto pueda escribirse alrededor de una imagen.</p> 
+       <p align="left" >El valor float se puede también declarar como “left”. Por ejemplo la imagen pasaría al lado izquierdo del div contenedor, y el texto se empezaría llenando el lado derecho restante.</p><p align="left">
+Los únicos valores posibles para float son “left”, “right” y “none”. No se puede centrar un objeto utilizando esta propiedad.</p><br>
+<img src="../Imagenes/margenes.png" align="left" width="350" style="margin-right:20px";>
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Márgenes internos y externos</h2>
+<p align="left"><b>"padding"</b>:El margen interno está entre el contenido y el borde, es transparente, y conserva algunas propiedades de la caja, como color de fondo, visibilidad, etc.</p>
+<p align="left"><b>"margin"</b>El margen externo es el espacio que dejamos entre el borde y los demás elementos adyacentes. no forma parte de la caja, aunque sí hay que tenerlo en cuenta para organizar los elementos de la página.</p>
+
+<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Propiedad clear</h2> 
+			 <p align="left">Cuando añadimos la propiedad CSS clear a un objeto, le estamos indicando una regla que dice “no admito elementos flotantes a mi lado”. Podemos especificar si queremos que no haya elementos flotantes a la izquierda, a la derecha o en ambos lados. En el caso del pie de página, queremos eliminarlos de ambos lados.</p>
+      
+<br>
+			 <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">w3schools acerca del CSS</h2>  
+             <p align="left">CSS es un lenguaje que describe el estilo de un documento de html. el CSS es lo que describe como los elementos del HTML seran presentados</p><br>
+			  <h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">What is CSS? </h2>  
+          <ul>
+            <li align="left">Hoja de estilos en cascada</li>
+			<li align="left">CSS describe como los elementos HTML son mostrados en la pantalla, papel o cualquier otro tipo de representacion</li>
+			<li align="left">CSS nos ayuda a ahorrarnos trabajo puesto que puede controlar multiples paginas web al mismo tiempo.</li>
+			<li align="left">Hojas de estilo externas son almacendadas en los archivos CSS</li>
+    </ul>
+      <br>
+
+			<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">¿Porque usar CSS? </h2>  
+            <p align="left">CSS es utilizado para definir el estilo de tu pagina web, incluyendo el diseño, formacion y variaciones en el display para diferentes dispositivos y tamaños de pantalla.</p><br>
+			<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">El CSS resolvio un gran problema </h2>  
+            <p align="left">HTML nunca fue diseñado para contener etiquetas para formatear una pagina web! HTML fue creado para describir el contenido de la pagina web, por ejemplo: < h1>Esto es un encabezado < p>Este es un parrafo. Cuando etiquetas como , y atributos de colores fueron agregadas a las especificaciones el HTML 3.2, comenzo una pesadilla para los desarrolladores web. Desarrollo de sitios web graindes, donde fuentes e informacion de color fueron agregados a cada pagina,esto se convirto en un proceso extenso y caro. para resolver este problema, el consortium de la web global (w3c por sus siglas en ingles) creo el CSS. Con esto el CSS removio el formateo de stilo de la pagina de HTML!</p><br>
+			<h2 style=" text-align: left; font-family: 'Courier New', Arial, Helvetica">Syntax del CSS? </h2>  
+            <p align="left">Las reglas del CSS consisten en un selector y un bloque de declaraciones </p><br>
+			<img src="../Imagenes/selector.gif"><p align="left"><br>
+			<p align="left">El selector apunta hacia a el elemento de HTML que quieres estilizar. El bloque de declaracion contiene una o mas declaraciones separadas por puntos y comas. Cada declaracion incluye una propiedad de CSS y su valor, separados por una coma. Una declaracion de CSS siempre termina con un punto y coma y los bloques de declaracion son rodeados por llaves. </p><br>
+			 <center><h1 style="font-family: 'Courier New', Arial, Helvetica; font-size: 2.3em; color:papayawhip;" >Conclusiones</h1></center>
+             <div class="contenedors">
+	<ul class="slider">
+		<li id="slider1">
+			<img src="../Imagenes/css2.jpg"/>
+		</li>
+		<li id="slider2">
+			<hr>
+            <h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Edward Fernando Perez Rocha</h3>
+            <p align="left">HTML a pesar de ser un sistema de etiquetas muy completo para introducir informacion en un navegador web es muy importante el uso de una hoja de estilos CSS pues ha ganado su lugar como el principal lenguaje de los diseñadores web para crear paginas con estilos que sean atractivos para el que utilice las paginas. Gracias a que se ha ido actulizando en gran medida este lenguaje ahora nos otorga muchas mas facilidades a la hora de diseñar un programa, tanto es el caso que actualmente las pagias web que no utilizan css como hoja de estilos son practicamente nulas.</p>
+            <hr>
+		</li>
+		<li id="slider3">
+		<hr>
+            <h3 style="text-align: center; font-family: 'Courier New', Arial, Helvetica">Bryan Alberto Flores García</h3>
+            <p align="left">CSS en la actualidad es muy importante su uso, ya que nos permite realizar paginas web muy impresionantes, dandole un buen estilo a una pagina mediante diferentes propiedades como el color, bordes, etc. Esto nos ayuda mucho a que el usuario tenga una mejor experiencia.</p>
+            </hr>
+		</li>
+		<li id="slider4">
+		<hr>
+		<h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Gerardo Carrera Torres</h3>
+            <p align="left">Incluir CSS en el desarrollo de las paginas web nos ayuda para darles un formato mas llamativo para el usuario, con las animaciones que se pueden hacer y los diseños que se pueden incluir la pagina sera mucho mas llamativa para el usuario, siempre y cuando sean diseños agradables para la vista sin que el usuario se sienta saturado por estos. </p>
+            </hr>
+		</li>
+		<li id="slider5">
+			<hr>
+            <h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Shakty Betzahbe Salinas Huerta</h3>
+            <p align="left">En conclusión, CSS es la tecnología creada con el fin de separar la estructura de la presentación, y mejorar la usabilidad y experiencia de usuario de un sitio web, permitiendo el desarrollo web responsive y disminuyendo el procesamiento y el tiempo de carga.
+Las CSS constituyen una valiosa herramienta de diseño
+Facilitan la tarea de edición y mantenimiento de los sitios en la Web
+Facilitan el acceso a la información a todas las personas
+Se complementan con otros lenguajes para lograr una mejor comunicación
+Permiten estar mejor preparados para los cambios que se producirán</p>
+            <hr>
+		</li>
+		<li id="slider6">
+			<hr>
+            <h3 style="text-align: left; font-family: 'Courier New', Arial, Helvetica">Diego Armando Hernandez Rivera</h3>
+            <p align="left">He concluido que el CSS es una nueva puerta para la edición de páginas Webs, gracias a esta podemos darle un estilo más profesional a nuestra página o dominio web Me pareció genial ver qué podemos cambiar la letra, el color, el tamaño entre otras características.</p>
+            <hr>
+		</li>
+	</ul>
+	<ul class="menu_s" align="center">
+	<li>
+		<a href="#slider1 ">Imagen</a>
+	</li>
+	<li>
+		<a href="#slider2 ">Edward</a>
+	</li>
+	<li>
+		<a href="#slider3 ">Bryan</a>
+	</li>
+	<li>
+		<a href="#slider4 ">Gerardo</a>
+	</li>
+	<li>
+		<a href="#slider5 ">Shakty</a>
+	</li>
+	<li>
+		<a href="#slider6 ">Diego</a>
+	</li>
+</ul>
+
+ </div>	
+			<h3 style="text-align: center; font-family: 'Courier New', Arial, Helvetica">Bibliografia</h3>
+        <a href="https://gutl.jovenclub.cu/wp-content/uploads/2013/10/El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf" target="_back" >El Gran Libro de HTML5,CSS3 y Javascrip</a><br>
+        <a href="https://docs.microsoft.com/es-es/previous-versions/msdn10/hh749022(v=msdn.10)" target="_back">Microsoft® CSS</a><br>
+                                    <a href="https://www.w3schools.com/" target="_back" >w3schools</a>   
+             
+
+            
+	     </section>
+	  </div>
+	</Body>
+
+</Html>
